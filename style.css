@@ -1,0 +1,175 @@
+.navbar {
+    display: flex;
+    align-items: stretch; 
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.main {
+    background: black;
+    display: flex;;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.main .container {
+    width: 100%;
+}
+
+.text-title {
+    color: aqua;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+@media (min-width: 768px) {
+    .container-fluid {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 100%;
+    }
+}
+.social-icons {
+    height: 40px;
+}
+
+.social-icon {
+    color: aqua;
+    font-size: 30px; 
+    margin-right: 10px; 
+}
+
+.social-icon:last-child {
+    margin-right: 0; 
+}
+
+.img-fluid {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    width: 300px; 
+    float: right; 
+    margin-top: 50px; 
+}
+.portfolio-container {
+    background-color: black;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.footer {
+    background-color: black;
+    color: #fff;
+  padding-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+   
+}
+
+.social-icon {
+    color: aqua;
+    font-size: 20px;
+    margin: 0 10px;
+    text-align:center ;
+}
+
+@media (max-width: 768px) {
+    .social-icon {
+        margin: 10px;
+    }
+}
+
+
+.shadow-box {
+    width: 400px;
+    margin: 0 auto; 
+    background-color: black;
+    color: aliceblue;
+    padding: 50px; 
+    border-radius: 60px; 
+    box-shadow: 10px 10px 30px rgba(106, 103, 103, 0.5); 
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    background-color: black;
+    color: white;
+    border-color: rgb(35, 34, 34);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.form-group textarea::placeholder {
+    color: white;
+}
+
+.btn-primary {
+    
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+.btn-primary:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+    color: black;
+}
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-container button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: rgb(50, 52, 52);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tools p {
+    margin-top: 20px;
+}
+.section-btn{
+    padding: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.education {
+    padding-bottom: 100px;
+    text-align: right;
+}
+
+.education-details p {
+    margin: 5px 0;
+}
